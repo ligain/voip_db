@@ -1,10 +1,15 @@
 
 # Voip DB
 To connect to DB use credentials:
+
 **db:** voip_db
+
 **user:** voip
+
 **password:** voip
+
 **port:** 3333
+
 The same password for the `root` user.
 
 
