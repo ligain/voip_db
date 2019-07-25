@@ -1,5 +1,12 @@
 
 # Voip DB
+To connect to DB use credentials:
+**db:** voip_db
+**user:** voip
+**password:** voip
+**port:** 3333
+The same password for the `root` user.
+
 
 ## How to set up database
 1) Install docker & docker-compose
@@ -17,7 +24,8 @@ $ git clone https://github.com/ligain/voip_db.git
 ```
 $ cd voip_db/
 ```
-4) Run project
+4) Don't forget to put **voip.sql.gz** in the parent folder of **voip_db/**.
+5) Run project
 ```
 $ docker-compose up
 ```
